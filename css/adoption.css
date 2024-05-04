@@ -1,0 +1,97 @@
+.title {
+    color: black;
+}
+.subtitle{
+    color: #7F055F;
+}
+
+form {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #45062E;
+    color: white;
+}
+
+label {
+    /* display: block; */
+    display:inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.c{
+  margin-left: 8px;
+}
+.one{
+    margin-top: 15px;
+}
+
+.follow{
+  color: #7F055F;
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+input[type="email"], input[type="tel"], input[type="text"], input[type="number"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  caret-color: #7F055F  ;
+  transition: all 350ms;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+  color: #7F055F
+  ;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border: 2px solid #E5A4CB
+
+  ;
+}
+
+button {
+    padding: 19px 39px 18px 39px;
+    color: black;
+    background-color: #E5A4CB
+    ;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    /*transition: all 350ms;*/
+    font-family: "Montserrat", sans-serif;
+  }
+
+  button:hover,
+button:focus {
+  background-color: #7F055F
+  ;
+  color: white;
+}

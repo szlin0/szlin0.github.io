@@ -1,0 +1,228 @@
+.profiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+.formlink {
+    color: #7F055F
+    ;
+    text-decoration: underline;
+}
+
+main p {
+    text-align: left;
+}
+
+footer p {
+    text-align: center;
+}
+
+.teddy {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3%; */
+    padding-bottom: 50px;
+}
+
+img {
+    width: 100%;
+/*    height: 100%;*/
+}
+
+.bio_button {
+    display: flex;
+    height: 50px;
+    width: 180px;
+    background: #E5A4CB;
+    /* border-radius: 10px; */
+    padding: 35px 39px 40px 39px;
+    text-align: center;
+    align-items: center;
+    border: none;
+}
+
+.button_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+.jackie {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3%; */
+    padding-bottom: 50px;
+}
+
+.hunter {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3%; */
+    padding-bottom: 50px;
+}
+
+.gracie {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3%; */
+    padding-bottom: 50px;
+}
+
+.dog_text {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.bio_button:hover {
+    background-color: #7F055F;
+    color: white;
+    /* transition: ease 1.1s; */
+}
+
+.bio_button:focus {
+    background-color: #7F055F;
+    color: white;
+    /* transition: ease 1.1s; */
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .profiles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+    .teddy {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 40%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3%;
+        padding-bottom: 50px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+    
+    .formlink {
+            color: #7F055F
+            ;
+            text-decoration: underline;
+    }
+
+    img {
+        width: 100%;
+    /*    height: 100%;*/
+    /*    padding-bottom: 3%;*/
+    }
+    
+    .bio_button {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #E5A4CB;
+        padding: 20px 39px 18px 39px;
+        /* border-radius: 10px; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        text-decoration: none;
+    }
+    
+    .button_text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 25px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    .jackie {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 40%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        padding-bottom: 50px;
+    }
+    
+    .hunter {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 40%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        padding-bottom: 50px;
+    }
+    
+    .gracie {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 40%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        padding-bottom: 50px;
+    }
+
+
+    .dog_text {
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    
+}

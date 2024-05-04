@@ -1,0 +1,46 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-img {
+    max-width: 700px;
+}
+
+dl {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+dt {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+dd {
+    margin-top: 10px;
+}
+
+a {
+    color: #7F055F
+    ;
+}
+
+@media screen and (min-width: 768px) {
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+
+    .couple {
+        width: 30%;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+  }

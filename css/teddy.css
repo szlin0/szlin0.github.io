@@ -1,0 +1,158 @@
+
+
+img {
+/*    height: 100%;*/
+    width: 100%;
+    /* margin-left: 10%; */
+}
+
+
+.teddy_photo {
+
+/*    height: 80%;*/
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+.teddy_stats {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+/* .stat_title {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 1%;
+} */
+
+/* .gender {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.age {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.breed {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.teddy_bio {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    padding-top: 5%;
+    text-decoration: none;
+}
+
+.about_teddy {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.adopt_button {
+    display: flex;
+    padding: 19px 39px 40px 39px;
+    height: 60px;
+    width: 100%;
+    /* margin-left: 10%; */
+    margin-top: 2%;
+    background: #E5A4CB;
+    /* border-radius: 10px; */
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.button_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    height: 40px;
+}
+
+.adopt_button:hover {
+    background-color: #7F055F;
+    color: white;
+    /* transition: ease 1.1s; */
+}
+
+.adopt_button:focus {
+    background-color: #7F055F;
+    color: white;
+    /* transition: ease 1.1s; */
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .teddy_photo {
+    /*    height: 70%;*/
+        width: 70%;
+        margin-left: 0%;
+    }
+
+    p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+
+    .teddy_stats {
+        margin-left: 0%;
+    }
+
+    .teddy_bio {
+        margin-left: 0%;
+    }
+
+    .all_teddy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1;
+        grid-template-areas: 
+        "left bio";
+    }
+
+    .teddy_left {
+        width: 100%;
+        height: 100%;
+        grid-area: left;
+    }
+
+    .adopt_button {
+        display: flex;
+        padding: 19px 39px 18px 39px;
+        height: 60px;
+        width: 100%;
+        /* margin-left: 10%; */
+        margin-top: 2%;
+        background: #E5A4CB;
+        /* border-radius: 10px; */
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+
+
+}
